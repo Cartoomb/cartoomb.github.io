@@ -11,8 +11,8 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Cartoomb Studios">
     <meta property="og:type" content="website">
-    <meta name="description" content="Digging Up Unheard Stories">
     <meta name="twitter:description" content="Digging Up Unheard Stories">
+    <meta name="description" content="Digging Up Unheard Stories">
     <meta property="og:image" content="https://cartoomb.com/assets/img/CartoombLogo_new.png">
     <link rel="icon" type="image/svg+xml" sizes="150x150" href="assets/img/CartoombLogo_mini.svg">
     <link rel="icon" type="image/svg+xml" sizes="150x150" href="assets/img/CartoombLogo_mini.svg" media="(prefers-color-scheme: dark)">
@@ -25,7 +25,7 @@
 </head>
 
 <body class="text-white" style="font-family: 'Nanum Gothic', sans-serif;background: #121926;">
-    <nav class="navbar navbar-expand-md py-3" style="background: #585F73;" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md fixed-top py-3" style="background: #585F73;margin: 20px;border-radius: 20px;" data-bs-theme="dark">
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="../index.html"><span><img data-bss-hover-animate="tada" src="assets/img/CartoombLogo_web.svg" width="100px"></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav ms-auto">
@@ -34,7 +34,7 @@
                                 <path d="M4 8l16 0"></path>
                                 <path d="M4 16l16 0"></path>
                             </svg></a>
-                        <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="../index.html">Home</a><a class="dropdown-item" href="../index.html#ourstories">Animation</a><a class="dropdown-item" href="../ourstory.html">Our Story</a><a class="dropdown-item" href="../about.html">About</a></div>
+                        <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="../index.html">Home</a><a class="dropdown-item" href="../index.html#ourstories">Storytelling</a><a class="dropdown-item" href="../services/branding.html">Branding</a><a class="dropdown-item" href="../services/marketing.html">Marketing</a><a class="dropdown-item" href="../ourstory.html">Our Story</a><a class="dropdown-item" href="../about.html">About</a><a class="dropdown-item" data-bs-target="#modal-1" data-bs-toggle="modal">Contact</a></div>
                     </li>
                 </ul>
             </div>
@@ -54,9 +54,9 @@
             <div class="col-md-12">
                 <div class="text-start" style="padding: 25px;text-align: center;"><a id="ourstories"></a>
                     <h1 class="text-center" style="font-family: 'Future Timesplitters';">Who We Are</h1>
-                    <p>Cartoomb Studios was created by Jacob Borg to bring classic animation techniques and the modern together. With modern animation, longer, more detailed products have been able to be produced at a lower cost than the more traditional style of animating by hand. While the classic technique takes longer, it has a charm and personal touch that have been lost with the new techniques clinical approach.&nbsp;</p>
+                    <p>Cartoomb Media was created by Jacob Borg to bring classic animation techniques and the modern together. With modern animation, longer, more detailed products have been able to be produced at a lower cost than the more traditional style of animating by hand. While the classic technique takes longer, it has a charm and personal touch that have been lost with the new techniques clinical approach.&nbsp;</p>
                     <p>Cartoomb is reconnecting family with entertainment. Family-owned studios no longer lead the charge in animation innovation or stories, and Cartoomb is looking to change that by incorporating family and storytelling into every aspect of the business, including the branding.</p>
-                    <p>Cartoomb Studios’ branding is inspired by the childhoods of Launa and J Wilson. The siblings grew up during the Great Depression, and with that came the determination to survive. While their parents worked in a local hair salon and grocery store, Launa and J worked at the local theater as dancers and hunted for each evening’s dinner in the local cemeteries on their way home each night.</p>
+                    <p>Cartoomb Media’ branding is inspired by the childhoods of Launa and J Wilson. The siblings grew up during the Great Depression, and with that came the determination to survive. While their parents worked in a local hair salon and grocery store, Launa and J worked at the local theater as dancers and hunted for each evening’s dinner in the local cemeteries on their way home each night.</p>
                     <p>This story is not happy, but it is the story of a family coming together and working hard in the face of adversity to beat all odds and survive. This family would survive the Great Depression, and while they would face even more adversity during World War II, they stayed strong and fought for each other.</p>
                     <p>Even in a place of dread, family can come together and find hope and life.</p>
                 </div>
@@ -70,10 +70,34 @@
                 <li class="list-inline-item me-4"><a class="link-light" href="../index.html#ourstories">Our Stories</a></li>
                 <li class="list-inline-item"><a class="link-light" href="../about.html">About</a></li>
             </ul>
+            <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Contact Us</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="text-start" data-bss-recipient="42d87927559992ea3a5a54c5a9688bcc"><label class="form-label">Name</label><input class="form-control" type="text" placeholder="Billy Bob" style="margin-bottom: 10px;"><label class="form-label">Email</label><input class="form-control" type="email" style="margin-top: 0;margin-bottom: 10px;" placeholder="billybob@cartoomb.com"><label class="form-label">Services</label><select class="form-select" style="margin-bottom: 10px;">
+                                    <optgroup label="Services">
+                                        <option value="12" selected="">Marketing</option>
+                                        <option value="13">Branding</option>
+                                    </optgroup>
+                                    <optgroup label="Inquiry">
+                                        <option value="14" selected="">General</option>
+                                    </optgroup>
+                                </select><label class="form-label">Message</label><textarea class="form-control" style="margin-top: 0;margin-bottom: 10px;" placeholder="Ahoy! "></textarea>
+                                <p style="text-align: center;"><input class="btn btn-primary" type="submit" style="text-align: center;" value="Send"></p>
+                            </form>
+                        </div>
+                        <div class="modal-footer"><button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close</button></div>
+                    </div>
+                </div>
+            </div>
             <ul class="list-inline text-white" style="font-size: 24px;">
-                <li class="list-inline-item me-4"><a href="https://twitter.com/cartoomb" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-twitter" style="color: #ffffff;">
+                <li class="list-inline-item me-4"><a href="https://twitter.com/cartoomb" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-x" style="color: #ffffff;">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                            <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z"></path>
+                            <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+                            <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
                         </svg></a></li>
                 <li class="list-inline-item me-4"><a href="https://www.instagram.com/cartoomb/" style="color: #ffffff;" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -87,6 +111,7 @@
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/smart-forms.min.min.js"></script>
 </body>
 
 </html>
